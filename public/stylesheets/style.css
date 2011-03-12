@@ -1,0 +1,187 @@
+html, body, div, span, object, iframe, h1, h2, h4, h5, h6, a, em, img, strong, u, i, dl, dt, dd, form, tr, th, td, footer, header, menu, nav{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: none;
+}
+
+body {
+margin:0;
+font-family:arial, sans-serif;
+background:#6b4d1b;
+
+color:black;
+padding:0;
+}
+
+a {
+color:red;
+text-decoration:none;
+}
+div.subscription{
+margin:0 auto 0 auto;
+width:1083px;
+position:relative;
+}
+
+#logo {
+width:511px;
+height:180px;
+position:absolute;
+top:100px;
+left:190px;
+
+}
+
+#sub_img{
+
+}
+
+.clear {
+clear:both;
+}
+
+#story-link {
+
+width:97px;
+height:53px;
+position:absolute;
+top:62px;
+right:232px;
+}
+
+#contact-link{
+
+width:95px;
+height:44px;
+top:64px;
+right:128px;
+position:absolute;
+
+}
+
+#noodle-ninja {
+
+position:absolute;
+left:318px;
+bottom:100px;
+width:90px;
+height:109px;
+
+}
+
+#cookie-ninja {
+
+position:absolute;
+left:410px;
+bottom:100px;
+width:107px;
+height:102px;
+}
+
+
+
+.twitbox1 {
+background: url('../images/twitbox1.png') no-repeat;
+width:150px;
+height:44px;
+position:absolute;
+left:240px;
+bottom:50px;
+display:none;
+font-size:12px;
+padding:5px;
+padding-top:12px;
+color:grey;
+}
+
+.twitbox2 {
+background: url('../images/twitbox2.png') no-repeat;
+width:150px;
+height:44px;
+position:absolute;
+left:420px;
+bottom:40px;
+display:none;
+font-size:13px;
+padding:5px;
+padding-top:12px;
+color:grey;
+}
+
+#signup-box {
+width:376px;
+height:61px;
+background:#583a14;
+color:white;
+font-size:14px;
+position:absolute;
+right:100px;
+bottom:126px;
+padding-top:12px;
+padding-left:6px;
+
+}
+
+input#subscription_email {
+border:none;
+height:32px;
+width:270px;
+margin-top:4px;
+padding-left:4px;
+font-size:14px;
+}
+
+input#subscription_submit {
+border:none;
+height:29px;
+width:85px;
+margin-top:4px;
+background:#352412;
+color:#fff603;
+}
+
+
+#story {
+color:white;
+font-size:14px;
+margin:0 auto 0 auto;
+width:1083px;
+position:relative;
+
+}
+
+.container {
+position:absolute;
+width:561px;
+height:249px;
+right:100px;
+top:270px;
+
+}
+
+#story .title {
+position:absolute;
+left:260px;
+bottom:260px;
+}
+
+#contact {
+color:white;
+font-size:14px;
+margin:0 auto 0 auto;
+width:1083px;
+position:relative;
+
+}
+
+
+#contact #email {
+position:absolute;
+right:0;
+bottom:120px;
+}
+

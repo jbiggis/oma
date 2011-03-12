@@ -1,0 +1,22 @@
+<div class="subscription">
+
+<%= image_tag 'bg-wobox.png'%>
+
+<%=render 'shared/nav' %>
+
+
+<div id="signup-box">
+<%= form_for @subscription do |f|%>
+<%= f.label :email, "We'll email you when we launch! No spam, promise."%><br/>
+<%= f.text_field :email%>
+<%= f.submit 'submit'%>
+<% end %>
+
+</div>
+
+<div id='noodle-ninja'></div>
+<div id='cookie-ninja'></div>
+<div class='twitbox1'>I'm Jing, find me on Twitter as <%= link_to '@noodle_ninja', 'http://twitter.com/noodle_ninja'%></div>
+<div class='twitbox2'>And I'm Nancy, the resident <%= link_to '@cookie_ninja', 'http://twitter.com/cookie_ninja'%></div>
+
+</div>

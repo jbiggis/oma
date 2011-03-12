@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Omakase</title>
+  <%= stylesheet_link_tag :all %>
+
+  <%= javascript_include_tag 'jquery' %>
+  <%= javascript_include_tag 'rails' %>
+  <%= csrf_meta_tag %>
+
+<script>
+
+$('#noodle-ninja').live('mouseover mouseout', function(event) {
+if (event.type == 'mouseover') {
+$('.twitbox1').show();
+} else {
+$('.twitbox1').hide();
+
+}
+
+});
+
+$('#cookie-ninja').live('mouseover mouseout', function(event) {
+if (event.type == 'mouseover') {
+$('.twitbox2').show();
+} else {
+$('.twitbox2').hide();
+
+}
+
+});
+
+
+</script>
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
