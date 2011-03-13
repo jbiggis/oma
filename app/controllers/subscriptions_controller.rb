@@ -8,6 +8,7 @@ class SubscriptionsController < ApplicationController
 			raise Exception 
 			logger.debug "ERROR - Can't create email:" + params[:subscription][:email]
 		end
+		flash[:notice] = 'Email Submitted.'
 		redirect_to root_url
   end
 

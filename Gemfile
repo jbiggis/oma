@@ -11,6 +11,8 @@ gem 'jquery-rails', '>= 0.2.6'
 
 gem 'heroku'
 
+gem 'admin_data'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
