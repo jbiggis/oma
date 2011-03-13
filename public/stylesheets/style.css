@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe, h1, h2, h4, h5, h6, a, em, img, strong, u, i, dl, dt, dd, form, tr, th, td, footer, header, menu, nav{
+html, body, div, span, object, iframe, h1, h2, h4, h5, h6, a, em, img, u, i, dl, dt, dd, form, tr, th, td, footer, header, menu, nav{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -28,11 +28,12 @@ position:relative;
 }
 
 #logo {
-width:511px;
-height:180px;
+
+width:400px;
+height:130px;
 position:absolute;
-top:100px;
-left:190px;
+top:40px;
+left:100px;
 
 }
 
@@ -155,13 +156,36 @@ position:relative;
 }
 
 .container {
+
 position:absolute;
-width:561px;
+width:541px;
 height:249px;
-right:100px;
+left:140px;
 top:270px;
 
 }
+
+.container-1 {
+
+position:absolute;
+width:541px;
+height:89px;
+left:140px;
+top:236px;
+
+}
+
+.container-2 {
+
+position:absolute;
+width:840px;
+height:189px;
+left:140px;
+top:316px;
+
+}
+
+
 
 #story .title {
 position:absolute;

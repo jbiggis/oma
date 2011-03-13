@@ -7,9 +7,11 @@
   <%= javascript_include_tag 'jquery' %>
   <%= javascript_include_tag 'rails' %>
   <%= csrf_meta_tag %>
+<%= javascript_include_tag 'facebook-init' %>
 
+  <%= render 'shared/facebook_init' %>
 <script>
-
+/*
 $('#noodle-ninja').live('mouseover mouseout', function(event) {
 if (event.type == 'mouseover') {
 $('.twitbox1').show();
@@ -30,7 +32,7 @@ $('.twitbox2').hide();
 
 });
 
-
+*/
 </script>
 
 </head>

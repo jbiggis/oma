@@ -5,4 +5,8 @@ class HomeController < ApplicationController
   def contact
   end
 
+  def fb
+		
+	end
+
 end

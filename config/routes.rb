@@ -4,7 +4,7 @@ Omakase::Application.routes.draw do
 
   get "/contact" => 'home#contact'
 
-
+  get '/fb' => 'home#fb'
 	root :to => "subscriptions#new"
 
 	resources :subscriptions, :only => [:create, :new]
