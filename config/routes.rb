@@ -9,6 +9,7 @@ Omakase::Application.routes.draw do
 
 	resources :subscriptions, :only => [:create, :new]
 
+  get '/admin_login' => 'sessions#create', :as => :login
 	
   # The priority is based upon order of creation:
   # first created -> highest priority.
