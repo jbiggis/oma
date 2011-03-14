@@ -7,13 +7,9 @@
   <%= javascript_include_tag 'jquery' %>
   <%= javascript_include_tag 'rails' %>
   <%= csrf_meta_tag %>
-<%= javascript_include_tag 'facebook-init' %>
 
 
-  <%= render 'shared/facebook_init' %>
-
-<div id="fb-root"></div>
-<script src="http://connect.facebook.net/en_US/all.js#appId=196091917091198&amp;xfbml=1"></script>
+  <div id="fb-root"><script src="http://connect.facebook.net/en_US/all.js"></script></div>
 
 <script>
 /*
@@ -46,5 +42,5 @@ $('.twitbox2').hide();
 <%= yield %>
 
 </body>
-<%= javascript_include_tag 'facebook-init' %>
+  <%= javascript_include_tag 'facebook-init' %>
 </html>
