@@ -75,6 +75,13 @@ padding:10px;
 clear:both;
 }
 
+#blog-link {
+position:absolute;
+top:56px;
+right:342px;
+}
+
+
 #story-link {
 
 width:97px;
@@ -137,7 +144,7 @@ position:absolute;
 left:420px;
 bottom:40px;
 display:none;
-font-size:13px;
+font-size:12px;
 padding:5px;
 padding-top:12px;
 color:grey;
@@ -195,23 +202,24 @@ top:270px;
 
 }
 
+
 .container-1 {
 
 position:absolute;
-width:541px;
+width:500px;
 height:89px;
-left:140px;
-top:236px;
+left:160px;
+top:266px;
 
 }
 
 .container-2 {
 
 position:absolute;
-width:840px;
+width:800px;
 height:189px;
-left:140px;
-top:316px;
+left:160px;
+top:346px;
 
 }
 
