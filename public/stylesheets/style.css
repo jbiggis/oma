@@ -60,6 +60,17 @@ margin-left:-33px;
 top:300px;
 }
 
+#intro {
+font-size:11pt;
+color:white;
+width:520px;
+background:#6b4d1b;
+position:absolute;
+right:128px;
+top:276px;
+padding:10px;
+}
+
 .clear {
 clear:both;
 }
@@ -83,7 +94,7 @@ position:absolute;
 
 }
 
-#noodle-ninja {
+#omakase-ninja {
 
 position:absolute;
 left:318px;
@@ -93,7 +104,7 @@ height:109px;
 
 }
 
-#cookie-ninja {
+#soda-ninja {
 
 position:absolute;
 left:410px;

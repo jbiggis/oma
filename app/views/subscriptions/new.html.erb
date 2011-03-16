@@ -3,8 +3,9 @@
 <%= image_tag 'bg-wobox.png'%>
 
 <%=render 'shared/nav' %>
-
-
+<div id='intro'>
+<strong>oh-mah-kah-say</strong> is an expression used at sushi bars to mean leave the selection to the chef.  It is a Japanese phrase that means "it's up to you".  The omakase box is a selection of tasty and unique foods that we handpick and deliver to you.
+</div>
 <div id="signup-box">
 <%= form_for @subscription do |f|%>
 <%= f.label :email, "We'll email you when we launch! No spam, promise."%><br/>
@@ -14,9 +15,9 @@
 
 </div>
 
-<div id='noodle-ninja'></div>
-<div id='cookie-ninja'></div>
-<!--<div class='twitbox1'>I'm Jing, find me on Twitter as <%# link_to '@noodle_ninja', 'http://twitter.com/noodle_ninja'%></div>
-<div class='twitbox2'>And I'm Nancy, the resident <%# link_to '@cookie_ninja', 'http://twitter.com/cookie_ninja'%></div>-->
+<div id='omakase-ninja'></div>
+<div id='soda-ninja'></div>
+<div class='twitbox1'>I'm Jing, find me on Twitter as <%= link_to '@omakase_ninja', 'http://twitter.com/omakase_ninja'%></div>
+<div class='twitbox2'>And I'm Nancy, the resident <%= link_to '@soda_ninja', 'http://twitter.com/soda_ninja'%></div>
 
 </div>
