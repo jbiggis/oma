@@ -53,6 +53,12 @@ z-index:1;
 
 }
 
+#fb-like {
+position:absolute;
+right:260px;
+top:220px;
+}
+
 #fb-login {
 position:absolute;
 left:50%;
