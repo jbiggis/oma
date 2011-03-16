@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe, h1, h2, h4, h5, h6, a, em, img, u, i, dl, dt, dd, form, tr, th, td, footer, header, menu, nav{
+twihtml, body, div, span, object, iframe, h1, h2, h4, h5, h6, a, em, img, u, i, dl, dt, dd, form, tr, th, td, footer, header, menu, nav{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -21,6 +21,18 @@ a {
 color:red;
 text-decoration:none;
 }
+
+#home-logo {
+
+width:560px;
+height:170px;
+position:absolute;
+top:118px;
+left:140px;
+
+
+}
+
 div.subscription{
 margin:0 auto 0 auto;
 width:1083px;
@@ -135,8 +147,7 @@ height:44px;
 position:absolute;
 left:240px;
 bottom:50px;
-display:none;
-font-size:12px;
+font-size:11px;
 padding:5px;
 padding-top:12px;
 color:grey;
@@ -149,8 +160,8 @@ height:44px;
 position:absolute;
 left:420px;
 bottom:40px;
-display:none;
-font-size:12px;
+
+font-size:11px;
 padding:5px;
 padding-top:12px;
 color:grey;
@@ -253,3 +264,38 @@ right:0;
 bottom:120px;
 }
 
+#contact #twit-link1 {
+height:20px;
+width:120px;
+color:white;
+background:#6b4d1b;
+position:absolute;
+top:350px;
+right:402px;
+}
+
+#contact #twit-link1 a{
+color:white;
+font-weight:bold;
+}
+
+#contact #twit-link2 {
+height:20px;
+width:120px;
+color:white;
+background:#6b4d1b;
+position:absolute;
+top:368px;
+right:382px;
+}
+
+#contact #twit-link2 a{
+color:white;
+font-weight:bold;
+}
+
+#story-photo {
+margin:20px auto;
+width:500px;
+
+}
