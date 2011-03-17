@@ -18,8 +18,12 @@ padding:0;
 }
 
 a {
-color:red;
+
 text-decoration:none;
+}
+
+a:visited {
+
 }
 
 #home-logo {
@@ -151,6 +155,15 @@ font-size:11px;
 padding:5px;
 padding-top:12px;
 color:grey;
+padding-left:24px;
+
+
+border-radius:5px;
+}
+
+.twitbox1 a, .twitbox1 a:visited, .twitbox2 a, .twitbox2 a:visited{
+font-weight:bold;
+color:#4d4d4d !important;
 }
 
 .twitbox2 {
@@ -299,3 +312,17 @@ margin:20px auto;
 width:500px;
 
 }
+
+#twit-icon {
+position:absolute;
+left:4px;
+}
+
+#twit-icon-2 {
+position:absolute;
+right:628px;
+top:352px;
+
+}
+
+
