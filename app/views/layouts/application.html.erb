@@ -13,7 +13,7 @@
   <div id="fb-root"><script src="http://connect.facebook.net/en_US/all.js"></script></div>
 
 <script>
-
+/*
 $('#omakase-ninja').live('mouseover mouseout', function(event) {
 if (event.type == 'mouseover') {
 $('.twitbox1').show();
@@ -33,14 +33,17 @@ $('.twitbox2').hide();
 }
 
 });
-
+*/
 
 </script>
 
 </head>
 <body>
+
+
+
 		<div id="notice"><%=notice%></div>
-<%= yield %>
+			<%= yield %>
 
 </body>
   <%= javascript_include_tag 'facebook-init' %>

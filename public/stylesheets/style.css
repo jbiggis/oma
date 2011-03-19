@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe, h1, h2, h4, h5, h6, a, em, img, u, i, dl, dt, dd, form, tr, th, td, footer, header, menu, nav{
+twihtml, body, div, span, object, iframe, h1, h2, h4, h5, h6, a, em, img, u, i, dl, dt, dd, form, tr, th, td, footer, header, menu, nav{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -18,9 +18,25 @@ padding:0;
 }
 
 a {
-color:red;
+
 text-decoration:none;
 }
+
+a:visited {
+
+}
+
+#home-logo {
+
+width:560px;
+height:170px;
+position:absolute;
+top:118px;
+left:140px;
+
+
+}
+
 div.subscription{
 margin:0 auto 0 auto;
 width:1083px;
@@ -53,6 +69,12 @@ z-index:1;
 
 }
 
+#fb-like {
+position:absolute;
+right:260px;
+top:220px;
+}
+
 #fb-login {
 position:absolute;
 left:50%;
@@ -74,6 +96,13 @@ padding:10px;
 .clear {
 clear:both;
 }
+
+#blog-link {
+position:absolute;
+top:56px;
+right:342px;
+}
+
 
 #story-link {
 
@@ -122,11 +151,19 @@ height:44px;
 position:absolute;
 left:240px;
 bottom:50px;
-display:none;
-font-size:12px;
+font-size:11px;
 padding:5px;
 padding-top:12px;
 color:grey;
+padding-left:24px;
+
+
+border-radius:5px;
+}
+
+.twitbox1 a, .twitbox1 a:visited, .twitbox2 a, .twitbox2 a:visited{
+font-weight:bold;
+color:#4d4d4d !important;
 }
 
 .twitbox2 {
@@ -136,8 +173,8 @@ height:44px;
 position:absolute;
 left:420px;
 bottom:40px;
-display:none;
-font-size:13px;
+
+font-size:11px;
 padding:5px;
 padding-top:12px;
 color:grey;
@@ -195,23 +232,24 @@ top:270px;
 
 }
 
+
 .container-1 {
 
 position:absolute;
-width:541px;
+width:500px;
 height:89px;
-left:140px;
-top:236px;
+left:160px;
+top:266px;
 
 }
 
 .container-2 {
 
 position:absolute;
-width:840px;
+width:800px;
 height:189px;
-left:140px;
-top:316px;
+left:160px;
+top:346px;
 
 }
 
@@ -238,4 +276,53 @@ position:absolute;
 right:0;
 bottom:120px;
 }
+
+#contact #twit-link1 {
+height:20px;
+width:120px;
+color:white;
+background:#6b4d1b;
+position:absolute;
+top:350px;
+right:402px;
+}
+
+#contact #twit-link1 a{
+color:white;
+font-weight:bold;
+}
+
+#contact #twit-link2 {
+height:20px;
+width:120px;
+color:white;
+background:#6b4d1b;
+position:absolute;
+top:368px;
+right:382px;
+}
+
+#contact #twit-link2 a{
+color:white;
+font-weight:bold;
+}
+
+#story-photo {
+margin:20px auto;
+width:500px;
+
+}
+
+#twit-icon {
+position:absolute;
+left:4px;
+}
+
+#twit-icon-2 {
+position:absolute;
+right:628px;
+top:352px;
+
+}
+
 
