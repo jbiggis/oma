@@ -228,6 +228,8 @@ display:none;
 background:#342512;
   border: 12px solid rgba(0,0,0,0.3);
 border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
 position:fixed;
 left:50%;
 top:50%;
