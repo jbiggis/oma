@@ -8,11 +8,59 @@
   <%= javascript_include_tag 'jquery' %>
   <%= javascript_include_tag 'rails' %>
   <%= csrf_meta_tag %>
-   <link rel="shortcut icon" href="/images/favicon.ico" >
+   <link rel="shortcut icon" href="/images/omakase-favicon.ico" >
 
   <div id="fb-root"><script src="http://connect.facebook.net/en_US/all.js"></script></div>
 
+
+
 <script>
+
+
+
+
+
+
+
+
+	$('#curtain').live('click', function(e) {
+		$('#email-success-box').hide();
+		$('#email-fail-box').hide();
+		$('#curtain').hide();
+	});
+
+$(document).ready(function () {
+
+	$('#email-success-box').hide();
+	$('#email-fail-box').hide();
+	$('#curtain').hide();
+
+
+
+	$('#subscription_submit').click(function(e) {
+
+		$.ajax({
+			type: 'POST',
+			url: '/subscriptions',
+			data: {'email':$('#subscription_email').val()},
+			success: function() {
+				$('#email-success-box').show();
+				$('#curtain').show();
+				$('#subscription_email').val('');	
+			},
+			error: function() {
+				$('#email-fail-box').show();
+				$('#curtain').show();		
+				$('#subscription_email').val('');	
+			}
+			
+		});
+
+	});
+
+
+});
+
 /*
 $('#omakase-ninja').live('mouseover mouseout', function(event) {
 if (event.type == 'mouseover') {

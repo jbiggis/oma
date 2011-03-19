@@ -1,4 +1,7 @@
+<div id='curtain'></div>
+
 <div class="subscription">
+
 <a href='/'><div id = 'home-logo'></div></a>
 <%= image_tag 'bg-wobox.png'%>
 
@@ -18,14 +21,29 @@
 <%= form_for @subscription do |f|%>
 <%= f.label :email, "We'll email you when we launch! No spam, promise."%><br/>
 <%= f.text_field :email%>
-<%= f.submit 'submit'%>
+<%# f.submit 'submit'%>
+<a href='#' id='subscription_submit'><div id='submit-wrapper'>submit</div></a>
+
 <% end %>
 
 </div>
+
 
 <div id='omakase-ninja'></div>
 <div id='soda-ninja'></div>
 <div class='twitbox1'><%= image_tag 'twitter-icon.png',  :id => 'twit-icon' %> I'm Jing, find me on Twitter <br/>as <%= link_to '@omakase_ninja', 'http://twitter.com/omakase_ninja'%></div>
 <div class='twitbox2'>And I'm Nancy, the resident <%= link_to '@soda_ninja', 'http://twitter.com/soda_ninja'%></div>
+
+
+
+<div id='email-success-box'>
+<div class='text'>Thanks for signing up!</div>
+</div>
+<div id='email-fail-box'>
+<div class='text'>Failed to sign up. <br/>Please try again.</div>
+</div>
+
+
+
 
 </div>

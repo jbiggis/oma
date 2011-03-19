@@ -201,16 +201,87 @@ width:270px;
 margin-top:4px;
 padding-left:4px;
 font-size:14px;
+float:left;
 }
 
-input#subscription_submit {
-border:none;
-height:29px;
-width:85px;
-margin-top:4px;
-background:#352412;
+#subscription_submit {
 color:#fff603;
+margin-top:4px;
+display:inline;
+float:left;
+margin-left:6px;
 }
+
+#submit-wrapper {
+
+padding-top:8px;
+border:none;
+height:26px;
+width:85px;
+background:#352412;
+text-align:center;
+}
+
+
+#email-success-box, #email-fail-box {
+display:none;
+background:#342512;
+  border: 12px solid rgba(0,0,0,0.3);
+border-radius:10px;
+position:fixed;
+left:50%;
+top:50%;
+color:white;
+margin-left:-200px;
+margin-top:-100px;
+height:150px;
+width:400px;
+text-align:center;
+font-size:18pt;
+font-weight:bold;
+z-index:10;
+
+
+     -moz-background-clip: border;     /* Firefox 3.6 */
+        -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+        background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+        -moz-background-clip: padding;     /* Firefox 3.6 */
+        -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+        background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+        -moz-background-clip: content;     /* Firefox 3.6 */
+        -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+        background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+}
+
+#email-success-box .text {
+margin-top:60px;
+
+}
+
+#email-fail-box .text {
+margin-top:40px;
+
+}
+
+
+#curtain {
+
+
+position:fixed;
+top:0;
+width:100%;
+height:100%;
+z-index:10;
+}
+
+
+
+/***************************************************************/
+
+
 
 
 #story {
@@ -232,28 +303,50 @@ top:270px;
 
 }
 
+#story-photo {
+margin:20px auto;
+width:500px;
+position:absolute;
+top:260px;
+left:140px;
+}
+
 
 .container-1 {
 
 position:absolute;
-width:500px;
-height:89px;
+/*
 left:160px;
 top:266px;
+*/
+width:380px;
+left:580px;
+top:340px;
+
 
 }
 
 .container-2 {
 
 position:absolute;
-width:800px;
-height:189px;
-left:160px;
-top:346px;
+width:820px;
+height:80px;
+left:140px;
+top:550px;
+background:#6b4d1b;
 
 }
 
+.container-3 {
 
+position:absolute;
+width:820px;
+height:180px;
+left:140px;
+top:630px;
+
+
+}
 
 #story .title {
 position:absolute;
@@ -307,11 +400,6 @@ color:white;
 font-weight:bold;
 }
 
-#story-photo {
-margin:20px auto;
-width:500px;
-
-}
 
 #twit-icon {
 position:absolute;
