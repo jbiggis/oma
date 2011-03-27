@@ -70,6 +70,85 @@ color:orange;
 }
 
 
+#curtain {
+
+
+position:fixed;
+top:0;
+width:100%;
+height:100%;
+z-index:10;
+}
+
+.subscription .top{
+}
+
+/******************************** NAV *****************************/
+
+
+#nav {
+margin:40px auto;
+position:relative;
+width:884px;
+background:black;
+opacity:0.5;
+}
+
+#nav #logo {
+height:130px;
+width:400px;
+position:absolute;
+top:0px;
+left:0px;
+background:black;
+opacity:0.5;
+}
+
+
+#hiw-link {
+background:black;
+opacity:0.5;
+position:absolute;
+width:133px;
+height:35px;
+top:21px;
+right:285px;
+}
+
+#story-link {
+
+width:97px;
+height:37px;
+position:absolute;
+top:26px;
+right:180px;
+background:black;
+opacity:0.5;
+}
+
+
+#blog-link {
+height:30px;
+width:70px;
+position:absolute;
+top:29px;
+right:104px;
+background:black;
+opacity:0.5;
+}
+
+#contact-link{
+
+width:93px;
+height:31px;
+top:27px;
+right:4px;
+position:absolute;
+background:black;
+opacity:0.5;
+}
+
+
 /************************** HOME ***************************/
 
 #home-nav {
@@ -89,16 +168,15 @@ margin:0 auto 0 auto;
 clear:both;
 }
 
+/*
+
 #logo {
 width:400px;
 height:130px;
 }
+*/
 
-#nav {
-margin-top:40px;
-margin-left:-60px;
-margin-bottom:40px;
-}
+
 
 #notice {
 height:60px;
@@ -141,35 +219,6 @@ display:inline;
 margin-right:2px;
 }
 
-.clear {
-clear:both;
-}
-
-#blog-link {
-position:absolute;
-top:56px;
-right:342px;
-}
-
-
-#story-link {
-
-width:97px;
-height:53px;
-position:absolute;
-top:62px;
-right:232px;
-}
-
-#contact-link{
-
-width:95px;
-height:44px;
-top:64px;
-right:128px;
-position:absolute;
-
-}
 
 #omakase-ninja {
 
@@ -315,18 +364,7 @@ margin-top:40px;
 }
 
 
-#curtain {
 
-
-position:fixed;
-top:0;
-width:100%;
-height:100%;
-z-index:10;
-}
-
-.subscription .top{
-}
 
 .subscription #what-is-omakase-box {
 width:480px;
