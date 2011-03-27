@@ -12,9 +12,14 @@ body {
 margin:0;
 font-family:arial, sans-serif;
 background:#6b4d1b;
-
-color:black;
+font-size:11pt;
+color:white;
 padding:0;
+}
+
+.content {
+width:820px;
+margin:0 auto;
 }
 
 a {
@@ -35,6 +40,26 @@ top:118px;
 left:140px;
 
 
+}
+
+h1 {
+color:#f8d808;
+font-size:16pt;
+
+}
+
+h2 {
+color:#fff603;
+font-size:14pt;
+}
+
+h3 {
+color:orange;
+font-size:11pt;
+}
+
+.orange {
+color:orange;
 }
 
 div.subscription{
@@ -91,6 +116,11 @@ position:absolute;
 right:128px;
 top:276px;
 padding:10px;
+}
+
+#oh-ma-ka-say {
+display:inline;
+margin-right:2px;
 }
 
 .clear {
@@ -279,9 +309,39 @@ height:100%;
 z-index:10;
 }
 
+.subscription #what-is-omakase-box {
+width:800px;
+margin:0 auto;
+}
+
+.subscription .bottom {
+width:840px;
+clear:both;
+margin:0 auto;
+}
+
+.subscription #the-box {
+width:240px;
+float:left;
+}
+
+.subscription #the-community {
+width:240px;
+float:left;
+}
+
+.subscription #helping-those-in-need {
+width:240px;
+float:left;
+}
 
 
-/***************************************************************/
+.title {
+
+}
+
+
+/****************************** OUR STORY *********************************/
 
 
 
@@ -295,66 +355,55 @@ position:relative;
 
 }
 
-.container {
-
-position:absolute;
-width:541px;
-height:249px;
-left:140px;
-top:270px;
-
-}
-
-#story-photo {
-margin:20px auto;
-width:500px;
-position:absolute;
-top:260px;
-left:140px;
-}
-
-
-.container-1 {
-
-position:absolute;
-/*
-left:160px;
-top:266px;
-*/
-width:380px;
-left:580px;
-top:340px;
-
-
-}
-
-.container-2 {
-
-position:absolute;
+#story {
 width:820px;
-height:80px;
-left:140px;
-top:550px;
-background:#6b4d1b;
-
+margin:0 auto;
 }
 
-.container-3 {
 
-position:absolute;
-width:820px;
-height:180px;
-left:140px;
-top:630px;
-
-
+#story #our-story .left {
+width:460px;
+float:left;
+margin-right:60px;
 }
 
-#story .title {
-position:absolute;
-left:260px;
-bottom:260px;
+#story #our-story .right {
+width:280px;
+float:left;
 }
+
+#story #a-social-enterprise .left {
+width:280px;
+float:left;
+margin-right:60px;
+}
+
+#story #a-social-enterprise .right {
+width:460px;
+float:left;
+}
+
+
+/****************************** HOW IT WORKS *********************************/
+
+
+#how-it-works .left{
+width:580px;
+float:left;
+margin-right:40px;
+}
+
+#how-it-works img {
+float:left;
+}
+
+#how-it-works .right{
+width:160px;
+float:left;
+}
+
+
+/****************************** HOW IT WORKS *********************************/
 
 #contact {
 color:white;
@@ -415,4 +464,21 @@ top:352px;
 
 }
 
+/**************************** FOOTER ****************************/
+
+#footer {
+background:blue;
+clear:both;
+}
+
+#footer ul {
+list-style:none;
+float:left;
+}
+
+
+
+#footer ul.second li{
+float:left;
+}
 

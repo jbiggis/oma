@@ -4,12 +4,19 @@ Omakase::Application.routes.draw do
 
   get "/contact" => 'home#contact'
 
+  get "/what_is_omakase_box" => 'home#wiob', :as => 'wiob'
+
+  get "/how_it_works" => 'home#hiw', :as => 'hiw'
+
   get '/fb' => 'home#fb'
+
 	root :to => "subscriptions#new"
 
 	resources :subscriptions, :only => [:create, :new]
 
   get '/admin_login' => 'sessions#create', :as => :login
+
+ 
 	
   # The priority is based upon order of creation:
   # first created -> highest priority.

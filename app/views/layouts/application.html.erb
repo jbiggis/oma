@@ -104,9 +104,11 @@ $('.twitbox2').hide();
 
 
 
-		<div id="notice"><%=notice%></div>
-			<%= yield %>
-
+	<div id="notice"><%=notice%></div>
+	<div class='content'>
+		<%= yield %>
+	</div>
+	<%= render 'shared/footer' %>
 </body>
   <%= javascript_include_tag 'facebook-init' %>
 </html>
