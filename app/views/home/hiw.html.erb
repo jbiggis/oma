@@ -1,7 +1,11 @@
-<%= render 'shared/nav' %>
-	<%= image_tag 'hanging_ninja.png', :id=> 'hanging_ninja' %>
-<div id='how-it-works'>
+<% content_for :header do %>
 
+	<%= render 'shared/nav' %>
+
+<% end %>
+
+	<div id='how-it-works'>
+	<%= image_tag 'hanging_ninja.png', :id=> 'hanging_ninja' %>
 	<div class='left'>
 		
 		<h1>How it Works</h1>
@@ -83,3 +87,9 @@
 	</div>
 
 </div>
+
+	<% content_for :footer do %>
+
+		<%= render 'shared/home_footer' %>
+
+	<% end %>

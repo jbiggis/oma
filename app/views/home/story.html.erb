@@ -1,4 +1,8 @@
+<% content_for :header do %>
+
 	<%= render 'shared/nav' %>
+
+<% end %>
 
 <div id='story'>
 
@@ -58,3 +62,9 @@
 
 
 </div>
+
+	<% content_for :footer do %>
+
+		<%= render 'shared/footer' %>
+
+	<% end %>
