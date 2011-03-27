@@ -74,6 +74,7 @@ color:orange;
 
 #home-nav {
 float:right;
+margin-right:80px;
 }
 
 #home-logo {
@@ -329,48 +330,44 @@ z-index:10;
 }
 
 .subscription #what-is-omakase-box {
-width:480px;
-margin-top:200px;
-margin-left:150px;
+width:640px;
+margin-top:100px;
+margin-left:auto;
+margin-right:auto;
 }
 
 .subscription .bottom {
-width:840px;
 clear:both;
 margin:0 auto;
 }
 
 .subscription #the-box {
-width:240px;
+width:200px;
 float:left;
+margin-right:20px;
 }
 
 .subscription #the-community {
-width:240px;
+width:200px;
 float:left;
+margin-right:20px;
 }
 
 .subscription #helping-those-in-need {
-width:240px;
+width:200px;
 float:left;
 }
-
 
 .title {
 
 }
 
 #ninjas {
-margin:0 auto -100px;
+margin:50px auto -100px;
 width:594px;
-
 }
 
-
 /****************************** OUR STORY *********************************/
-
-
-
 
 #story {
 color:white;
@@ -378,7 +375,6 @@ font-size:14px;
 margin:0 auto 0 auto;
 width:1083px;
 position:relative;
-
 }
 
 #story {
@@ -390,12 +386,10 @@ margin:0 auto;
 padding-bottom:20px;
 }
 
-
 #story #our-story .left {
 width:500px;
 float:left;
 margin-right:60px;
-
 }
 
 #story #our-story #nancy_jing {
@@ -407,7 +401,6 @@ padding-bottom:20px;
 padding-top:10px;
 width:240px;
 float:left;
-
 }
 
 #story #a-social-enterprise {
@@ -432,10 +425,7 @@ width:460px;
 float:left;
 }
 
-
 /****************************** HOW IT WORKS *********************************/
-
-
 
 #hanging_ninja {
 margin-top:-40px;
@@ -498,10 +488,8 @@ float:left;
 padding-top:40px;
 }
 
-
 #how-it-works img {
 float:left;
-
 margin-bottom:20px;
 }
 
@@ -520,9 +508,7 @@ font-size:14px;
 margin:0 auto 0 auto;
 width:1083px;
 position:relative;
-
 }
-
 
 #contact #email {
 position:absolute;
@@ -570,24 +556,26 @@ left:4px;
 position:absolute;
 right:628px;
 top:352px;
-
 }
 
 /**************************** HOME FOOTER ****************************/
 
 #footer.home {
 padding-top:120px;
-
 }
-
 
 /**************************** FOOTER ****************************/
 
 #footer {
 background:#352412;
 clear:both;
+width:100%;
 margin:0 auto;
-width:820px;
+}
+
+#footer .content{
+width:600px;
+margin:0 auto 120px auto;
 }
 
 #footer .logo {
@@ -597,7 +585,6 @@ float:left;
 #footer ul {
 list-style:none;
 float:left;
-
 }
 
 #footer a {
@@ -607,4 +594,3 @@ color:white;
 #footer ul.second li{
 float:left;
 }
-
