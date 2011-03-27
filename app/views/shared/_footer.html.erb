@@ -6,7 +6,7 @@
 			<h2>Navigate</h2>
 
 			<li><%= link_to 'Home', root_url %></li>
-			<li><%= link_to 'What is Omakase Box', wiob_url %></li>
+			<!--<li><%# link_to 'What is Omakase Box', wiob_url %></li>-->
 			<li><%= link_to 'How it Works', hiw_url %></li>
 			<li><%= link_to 'Our Story', story_url %></li>
 			<li><%= link_to 'Contact', contact_url %></li>
@@ -19,13 +19,13 @@
 			<h2>Connect with us</h2>
 
 			<% fb = image_tag 'fb-icon.png', :width=>'40'%>
-			<li><%= link_to fb, root_url %></li>
+			<li><%= link_to fb, 'http://www.facebook.com/pages/Omakase-Box/208033962545676' %></li>
 			<% twit = image_tag 'twit-icon.png', :width=>'40'%>
-			<li><%= link_to twit, wiob_url %></li>
+			<li><%= link_to twit, 'http://twitter.com/omakase_ninja' %></li>
 			<% tumb = image_tag 'tumb-icon.png', :width=>'38'%>
-			<li><%= link_to tumb, hiw_url %></li>
+			<li><%= link_to tumb, 'http://blog.omakasebox.com' %></li>
 			<% email = image_tag 'email-icon.png', :width=>'38'%>
-			<li><%= link_to email, story_url %></li>
+			<li><%= link_to email, 'mailto:ninjas@omakasebox.com' %></li>
 
 		</ul>
 

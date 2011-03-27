@@ -23,7 +23,9 @@ font-size:10pt;
 /*background:#6b4d1b;*/
 background:#6d4a1d;
 padding-top:40px;
+/*
 width:1024px;
+*/
 margin-left:auto;
 margin-right:auto;
 }
@@ -105,19 +107,24 @@ width:400px;
 position:absolute;
 top:0px;
 left:0px;
+/*
 background:black;
 opacity:0.5;
+*/
 }
 
 
 #hiw-link {
-background:black;
-opacity:0.5;
+
 position:absolute;
 width:133px;
 height:35px;
 top:21px;
 right:285px;
+/*
+background:black;
+opacity:0.5;
+*/
 }
 
 #story-link {
@@ -127,8 +134,10 @@ height:37px;
 position:absolute;
 top:26px;
 right:180px;
+/*
 background:black;
 opacity:0.5;
+*/
 }
 
 
@@ -138,8 +147,10 @@ width:70px;
 position:absolute;
 top:29px;
 right:104px;
+/*
 background:black;
 opacity:0.5;
+*/
 }
 
 #contact-link{
@@ -149,8 +160,10 @@ height:31px;
 top:27px;
 right:4px;
 position:absolute;
+/*
 background:black;
 opacity:0.5;
+*/
 }
 
 
@@ -159,6 +172,12 @@ opacity:0.5;
 #home-nav {
 float:right;
 margin-right:80px;
+}
+
+#nav.home .links {
+position:absolute;
+right:79px;
+bottom:19px;
 }
 
 #home-logo {
@@ -361,7 +380,7 @@ margin-right:auto;
 
 .subscription .bottom {
 clear:both;
-margin:0 auto;
+margin:20px auto;
 }
 
 .subscription #the-box {
