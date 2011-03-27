@@ -101,14 +101,16 @@ $('.twitbox2').hide();
 
 </head>
 <body>
+<div id='container'>
 
-
-
+	<%= yield :header %>
 	<div id="notice"><%=notice%></div>
 	<div class='content'>
 		<%= yield %>
 	</div>
-	<%= render 'shared/footer' %>
+<div class='spacer'>
+</div>
+	<%= yield :footer %>
 </body>
   <%= javascript_include_tag 'facebook-init' %>
 </html>
