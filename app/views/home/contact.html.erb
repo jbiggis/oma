@@ -1,9 +1,38 @@
-<div id='contact'>
-<%= image_tag 'bg-contact.png'%>
-<%= render 'shared/nav' %>
-<%= image_tag 'twitter-icon.png',  :id => 'twit-icon-2' %>
-<div id='twit-link1'><%= link_to '@omakase_ninja', 'http://twitter.com/omakase_ninja' %></div>
-<div id='twit-link2'><%= link_to '@soda_ninja', 'http://twitter.com/soda_ninja' %></div>
+<% content_for :header do %>
 
+	<%= render 'shared/nav' %>
+
+<% end %>
+
+<div id='contact'>
+
+
+	<h1>Contact</h1>
+	<p>Want to get in touch? Ninjas always respond to your emails and tweets.</p>
+	<p>Email: <a href='mailto:ninjas@omakasebox.com'>ninjas@omakasebox.com</a></p>
+
+	<p>
+		<%= image_tag 'twitter-icon.png',  :id => 'twit-icon-2' %>
+		Jing on Twitter: <span id='twit-link1'><%= link_to '@omakase_ninja', 'http://twitter.com/omakase_ninja' %></span>
+	</p>
+
+	<p>
+		Nancy on Twitter:<span id='twit-link2'>	<%= link_to '@soda_ninja', 'http://twitter.com/soda_ninja' %></span>
+	</p>
+
+	<div class='illustrations'>
+		<%= image_tag 'contact-ninja.png', :class => 'ninja' %>
+		<%= image_tag 'contact-lines.png', :class => 'lines' %>
+	</div>
+
+
+	<div class='filler'>
+	</div>
 
 </div>
+
+	<% content_for :footer do %>
+
+		<%= render 'shared/footer' %>
+
+	<% end %>
