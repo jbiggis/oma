@@ -11,12 +11,27 @@
 
 		<%= image_tag 'home_logo.png', :id=>'home-logo'%>
 
+		<div id='fb-like'>
+			<fb:like href="http://www.facebook.com/pages/Omakase-Box/208033962545676" layout="button_count" show_faces="true" ></fb:like>
+		</div>
+
 		<div id='intro'>
 			<h1 id='oh-ma-ka-say'>oh-mah-kah-say</h1> is an expression used at sushi bars to mean leave the selection to the chef.  It is a Japanese phrase that means "it's up to you".  The omakase box is a selection of tasty and unique foods that we handpick and deliver to you.
 		</div>
 
-		<div id='fb-like'>
-			<fb:like href="http://www.facebook.com/pages/Omakase-Box/208033962545676" layout="button_count" show_faces="true" ></fb:like>
+		<div id='two-ninjas'>
+			<%= image_tag '2_ninjas.png' %>
+			<div class='twitbox1'>
+				I'm Jing, find me on Twitter <br/>as <%= link_to '@omakase_ninja', 'http://twitter.com/omakase_ninja'%>
+				<%= image_tag 'twitter-icon.png',  :id => 'twit-icon' %> 
+			</div>
+			<div class='twitbox2'>
+				And I'm Nancy, the resident <%= link_to '@soda_ninja', 'http://twitter.com/soda_ninja'%>
+			</div>
+		</div>
+		<div id='omakase-ninja'>
+		</div>
+		<div id='soda-ninja'>
 		</div>
 
 		<div id="signup-box">
@@ -26,20 +41,6 @@
 				<%# f.submit 'submit'%>
 				<a href='#' id='subscription_submit'><div id='submit-wrapper'>submit</div></a>
 			<% end %>
-		</div>
-
-		<div id='two-ninjas'>
-			<%= image_tag '2_ninjas.png' %>
-		</div>
-		<div id='omakase-ninja'>
-			<div class='twitbox1'>
-				<%= image_tag 'twitter-icon.png',  :id => 'twit-icon' %> I'm Jing, find me on Twitter <br/>as <%= link_to '@omakase_ninja', 'http://twitter.com/omakase_ninja'%>
-			</div>
-		</div>
-		<div id='soda-ninja'>
-			<div class='twitbox2'>
-				And I'm Nancy, the resident <%= link_to '@soda_ninja', 'http://twitter.com/soda_ninja'%>
-			</div>
 		</div>
 
 		<div id='email-success-box'>
