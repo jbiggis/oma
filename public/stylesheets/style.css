@@ -22,7 +22,7 @@ font-size:10pt;
 #container {
 background:#6b4d1b;
 padding-top:40px;
-width:1024px;
+
 margin-left:auto;
 margin-right:auto;
 }
@@ -599,10 +599,12 @@ padding-top:120px;
 /**************************** FOOTER ****************************/
 
 #footer {
+
 background:#352412;
 clear:both;
 width:100%;
 margin:0 auto;
+padding:40px 0;
 }
 
 #footer .content{
@@ -617,6 +619,14 @@ float:left;
 #footer ul {
 list-style:none;
 float:left;
+}
+
+#footer ul li{
+margin:4px 4px;
+}
+
+#footer ul.second {
+text-align:center;
 }
 
 #footer a {
