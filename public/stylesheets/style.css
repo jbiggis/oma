@@ -472,11 +472,16 @@ float:left;
 
 /****************************** HOW IT WORKS *********************************/
 
+#how-it-works {
+position:relative;
+width:100%;
+}
+
 #how-it-works #hanging_ninja {
 margin-top:-40px;
 z-index:10;
 position:absolute;
-right:320px;
+right:30px;
 }
 
 #how-it-works h1 {
